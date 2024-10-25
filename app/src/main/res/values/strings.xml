@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Qta_JC_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hola_usuario">Hola </string>
+    <string name="linea1">Te voy a ayudar a solucionar el problema de las 2 mitades.</string>
 </resources>

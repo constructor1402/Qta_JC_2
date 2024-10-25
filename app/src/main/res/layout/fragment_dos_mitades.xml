@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DosMitadesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Título en la parte superior con fondo verde claro y texto negro -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dos mitades"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Texto explicativo debajo del título -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hola_usuario"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linea1"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Ingresa una cadena de caracteres.\n2. Te ayudare a cortar la cadena en dos partes 'iguales' (si la longitud de la cadena es impar, colocaré el carácter central en la primera cadena, de modo que la primera cadena contenga un carácter más que la segunda).\n3. Luego imprimiré la nueva cadena en una sola fila con la primera y la segunda mitad intercambiadas (la segunda mitad es la primera y la primera mitad es la segunda)."
+                android:paddingBottom="16dp" />
+
+            <!-- Campo de entrada para la cadena de caracteres -->
+            <EditText
+                android:id="@+id/inputText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingresa una cadena de caracteres"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <!-- Botón para procesar -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solucionar"
+                android:layout_gravity="center"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:textColor="@android:color/black"
+                android:padding="12dp"
+                android:layout_marginTop="24dp"/>
+
+            <!-- Texto de resultado -->
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El resultado aparecerá aquí"
+                android:paddingTop="20dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
