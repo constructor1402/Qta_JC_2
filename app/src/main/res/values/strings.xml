@@ -1,6 +1,25 @@
 <resources>
     <string name="app_name">Qta_JC_2</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="titulo1_1">Dos Mitades</string>
     <string name="hola_usuario">Hola </string>
-    <string name="linea1">Te voy a ayudar a solucionar el problema de las 2 mitades.</string>
+    <string name="linea1"></string>
+    <string name="linea2">Te voy a ayudar a solucionar el problema de las 2 mitades. \n
+        1. Ingresa una cadena de caracteres.\n2.
+        Te ayudare a cortar la cadena en dos partes "iguales" (si la longitud de la cadena es impar,
+        colocaré el carácter central en la primera cadena, de modo que la primera cadena contenga un carácter más que la segunda).\n3.
+        Luego imprimiré la nueva cadena en una sola fila con la primera y la segunda mitad intercambiadas
+        (la segunda mitad es la primera y la primera mitad es la segunda).</string>
+    <string name="orden1">Ingresa una cadena de caracteres</string>
+
+
+
+
+    <!-- dos palabras  -->
+    <string name="titulo1_2">Dos Palabras</string>
+    <string name="linea2_1">Te voy a ayudar a solucionar el problema de las 2 palabras.
+            \n1. Ingresa una cadena de caracteres que contenga solo 2 palabras separadas por un espacio.
+            \n2. Imprimiré una nueva cadena con las posiciones de la primera y segunda palabra intercambiadas
+                (la segunda palabra se imprime primero).\n
+       .</string>
+    <string name="orden2_1">Ingresa una cadena de caracteres</string>
 </resources>
